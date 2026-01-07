@@ -1,0 +1,69 @@
+\doxysection{Write\+Serial/\+\+Write\+Serial.ino File Reference}
+\hypertarget{_write_serial_8ino}{}\label{_write_serial_8ino}\index{WriteSerial/WriteSerial.ino@{WriteSerial/WriteSerial.ino}}
+
+
+Small program for sending a message to a microcontroller and recieving whatever was send. It can convert it to binary, but this is optinal.  
+
+
+{\ttfamily \+\#include $<$SPI.\+h$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{_write_serial_8ino_a4fc01d736fe50cf5b977f755b675f11d}{setup}} ()
+\item 
+void \doxymbox{\hyperlink{_write_serial_8ino_afe461d27b9c48d5921c00d521181f12f}{loop}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \doxymbox{\hyperlink{_write_serial_8ino_ae563354a0218546aca0b276f84a85755}{incoming\+Byte}} = 0
+\begin{DoxyCompactList}\small\item\em Used to hold the character sent through serial. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Small program for sending a message to a microcontroller and recieving whatever was send. It can convert it to binary, but this is optinal. 
+
+\begin{DoxyAuthor}{Author}
+August Clemmensen \& Viktor Munk 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2026-\/01-\/07
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2026 
+\end{DoxyCopyright}
+
+
+\label{doc-func-members}
+\Hypertarget{_write_serial_8ino_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{_write_serial_8ino_afe461d27b9c48d5921c00d521181f12f}\index{WriteSerial.ino@{WriteSerial.ino}!loop@{loop}}
+\index{loop@{loop}!WriteSerial.ino@{WriteSerial.ino}}
+\doxysubsubsection{\texorpdfstring{loop()}{loop()}}
+{\footnotesize\ttfamily \label{_write_serial_8ino_afe461d27b9c48d5921c00d521181f12f} 
+void loop (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+The main loop the continually monitors if a message has been sent and outputs it \Hypertarget{_write_serial_8ino_a4fc01d736fe50cf5b977f755b675f11d}\index{WriteSerial.ino@{WriteSerial.ino}!setup@{setup}}
+\index{setup@{setup}!WriteSerial.ino@{WriteSerial.ino}}
+\doxysubsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily \label{_write_serial_8ino_a4fc01d736fe50cf5b977f755b675f11d} 
+void setup (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Enables the use of serial communication through Baud 9600 
+
+\label{doc-var-members}
+\Hypertarget{_write_serial_8ino_doc-var-members}
+\doxysubsection{Variable Documentation}
+\Hypertarget{_write_serial_8ino_ae563354a0218546aca0b276f84a85755}\index{WriteSerial.ino@{WriteSerial.ino}!incomingByte@{incomingByte}}
+\index{incomingByte@{incomingByte}!WriteSerial.ino@{WriteSerial.ino}}
+\doxysubsubsection{\texorpdfstring{incomingByte}{incomingByte}}
+{\footnotesize\ttfamily \label{_write_serial_8ino_ae563354a0218546aca0b276f84a85755} 
+int incoming\+Byte = 0}
+
+
+
+Used to hold the character sent through serial. 
+
