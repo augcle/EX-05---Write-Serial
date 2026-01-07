@@ -2,7 +2,7 @@
  * @file WriteSerial.ino
  * @author August Clemmensen & Viktor Munk
  * @brief Small program for sending a message to a microcontroller and recieving whatever was send.
- *        It can convert it to binary, but this is optinal. 
+ *        It can convert it to binary, but this is optional. 
  * @version 1
  * @date 2026-01-07
  * 
